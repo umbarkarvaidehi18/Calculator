@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./calculator.css"/>
+    <script src="./calculator.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="text_1">CALCULATOR</div>
+        </div>
+
+        <div class="main_inputs">
+
+        <input type="number" class="input_1" placeholder="ENTER THE FIRST NUMBER" id="input_1" ></div>
+        <input type="number" class="input_2" placeholder="ENTER THE SECOND NUMBER" id="input_2"></div>
+       
+
+       
+        <div class="boxes">
+        
+            <button class="box" onclick="signAdd()" ><h1 class="text_2">+</h1></button>
+            <button class="box" onclick="signSub()" ><h1 class="text_2">-</h1></button>
+            <button class="box" onclick="signMul()" ><h1 class="text_2">x</h1></button>
+            <button class="box" onclick="signDiv()" ><h1 class="text_2">/</h1></button>
+            
+            
+            
+           
+
+        </div>
+          <div class="output_container">
+        <div class="output" id="output" ></div>
+        <button class="calculate" onclick="calculate()"><h2 class="calci">CALCULATE</h2></button>
+        </div>
+
+       
+  
+    </div >
+</body>
+</html>

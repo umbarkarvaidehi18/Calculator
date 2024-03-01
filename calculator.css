@@ -1,0 +1,98 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width:650px;
+    height:50px;
+    background-color:black;
+    margin-top: 50px;
+    margin-left: 350px;
+    border-radius: 10px;
+    border: 10px black;
+    
+
+}
+.text_1{
+    margin-left: 200px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:900;
+    color: aliceblue;
+}
+.input_1{
+    width: 640px;
+    height:40px;
+    margin-left: 350px;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+.input_2{
+    width: 640px;
+    height:40px;
+    margin-left: 350px;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+
+
+
+.boxes{
+    width: 630px;
+    padding: 10px;
+    margin-left: 350px;
+    display: grid;
+    grid-template-columns:150px 150px 150px 150px ;
+    grid-gap: 10px;
+    background-color:violet;
+    border-radius: 10px;
+
+}
+.box{
+    background-color:black;
+    grid-gap: 10px;
+    height: 40px;
+    border-radius: 10px;
+
+}
+.text_2{
+    color:aliceblue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.output_container{
+  position: relative;
+  background-color: blueviolet;
+}
+.output{
+    position: absolute;
+    width: 500px;
+    height:40px;
+    margin-left: 350px;
+    background-color: bisque;
+    border-radius: 10px;
+
+}
+.calculate{
+    position: absolute;
+    margin-left: 850px;
+    width: 150px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+}
+.calci{
+    
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight:800;
+    color:black;
+    padding-left: 18px;
+    
+}
